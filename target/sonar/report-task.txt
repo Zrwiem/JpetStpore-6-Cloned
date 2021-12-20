@@ -1,0 +1,6 @@
+projectKey=org.mybatis:jpetstore
+serverUrl=http://localhost:9000
+serverVersion=6.7.7.38951
+dashboardUrl=http://localhost:9000/dashboard/index/org.mybatis:jpetstore
+ceTaskId=AX3YD8tyY3c4cPi457qh
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX3YD8tyY3c4cPi457qh

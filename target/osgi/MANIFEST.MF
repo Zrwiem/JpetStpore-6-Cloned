@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1640007354534
+Build-Jdk: 1.8.0_152
+Built-By: formation
+Bundle-Description: The MyBatis parent POM.
+Bundle-DocURL: http://www.mybatis.org
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: JPetStore Demo 6
+Bundle-SymbolicName: org.mybatis.jpetstore
+Bundle-Vendor: MyBatis.org
+Bundle-Version: 6.0.3.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.mybatis.jpetstore.domain;version="6.0.3.SNAPSHOT",or
+ g.mybatis.jpetstore.mapper;version="6.0.3.SNAPSHOT",org.mybatis.jpetsto
+ re.service;version="6.0.3.SNAPSHOT",org.mybatis.jpetstore.web.actions;v
+ ersion="6.0.3.SNAPSHOT"
+Import-Package: javax.servlet.http,net.sourceforge.stripes.action,net.so
+ urceforge.stripes.integration.spring,net.sourceforge.stripes.validation
+ ,org.springframework.stereotype,org.springframework.transaction.annotat
+ ion
+Include-Resource: {database/jpetstore-hsqldb-dataload.sql=src/main/resou
+ rces/database/jpetstore-hsqldb-dataload.sql},{database/jpetstore-hsqldb
+ -schema.sql=src/main/resources/database/jpetstore-hsqldb-schema.sql},{o
+ rg/mybatis/jpetstore/mapper/AccountMapper.xml=src/main/resources/org/my
+ batis/jpetstore/mapper/AccountMapper.xml},{org/mybatis/jpetstore/mapper
+ /CategoryMapper.xml=src/main/resources/org/mybatis/jpetstore/mapper/Cat
+ egoryMapper.xml},{org/mybatis/jpetstore/mapper/ItemMapper.xml=src/main/
+ resources/org/mybatis/jpetstore/mapper/ItemMapper.xml},{org/mybatis/jpe
+ tstore/mapper/LineItemMapper.xml=src/main/resources/org/mybatis/jpetsto
+ re/mapper/LineItemMapper.xml},{org/mybatis/jpetstore/mapper/OrderMapper
+ .xml=src/main/resources/org/mybatis/jpetstore/mapper/OrderMapper.xml},{
+ org/mybatis/jpetstore/mapper/ProductMapper.xml=src/main/resources/org/m
+ ybatis/jpetstore/mapper/ProductMapper.xml},{org/mybatis/jpetstore/mappe
+ r/SequenceMapper.xml=src/main/resources/org/mybatis/jpetstore/mapper/Se
+ quenceMapper.xml},{StripesResources.properties=src/main/resources/Strip
+ esResources.properties},META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE
+Private-Package: database
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.3.0.202102221516
